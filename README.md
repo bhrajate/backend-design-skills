@@ -46,12 +46,9 @@ Inside Claude Code, add this repository as a marketplace and install the
 plugin:
 
 ```
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add bhrajate/backend-design-skills
 /plugin install backend-design@backend-design-skills
 ```
-
-Replace `<owner>/<repo>` with the GitHub slug where this repository is hosted
-(for a local checkout, pass the absolute path instead of the GitHub slug).
 
 Other useful commands:
 
@@ -64,7 +61,7 @@ Other useful commands:
 ### Option 2 — Install from a Local Clone
 
 ```bash
-git clone <repo-url> backend-design-skills
+git clone git@github.com:bhrajate/backend-design-skills.git backend-design-skills
 ```
 
 Then in Claude Code:
@@ -119,4 +116,4 @@ relevant principles (YAGNI, DDD bounded contexts, etc.).
 
 ## License
 
-See the `LICENSE` file at the root of the repository (if present).
+See the `LICENSE` file at the root of the repository.
