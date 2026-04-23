@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "backend-design",
-      "source": ".",
+      "source": "./",
       "description": "Expert, principle-driven guidance for backend system design — SOLID, DRY, KISS, YAGNI, DDD, Clean Architecture, Microservices, 12-Factor.",
       "version": "0.1.0",
       "category": "architecture",
