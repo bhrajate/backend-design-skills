@@ -92,8 +92,7 @@ DDD 限界上下文等）展开。
 ```
 .
 ├── .claude-plugin/
-│   ├── plugin.json          # 插件清单
-│   └── marketplace.json     # Marketplace 清单
+│   └── marketplace.json     # Marketplace 清单（声明插件及其 skills）
 ├── skills/
 │   └── backend-design/
 │       ├── SKILL.md         # Skill 入口

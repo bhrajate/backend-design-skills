@@ -97,8 +97,7 @@ relevant principles (YAGNI, DDD bounded contexts, etc.).
 ```
 .
 ├── .claude-plugin/
-│   ├── plugin.json          # Plugin manifest
-│   └── marketplace.json     # Marketplace manifest
+│   └── marketplace.json     # Marketplace manifest (declares the plugin and its skills)
 ├── skills/
 │   └── backend-design/
 │       ├── SKILL.md         # Skill entry point
