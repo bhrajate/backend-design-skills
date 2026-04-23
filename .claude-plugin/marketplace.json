@@ -1,0 +1,29 @@
+{
+  "name": "backend-design-skills",
+  "owner": {
+    "name": "backend-design-skills contributors"
+  },
+  "metadata": {
+    "description": "Marketplace hosting the backend-design skill plugin for Claude Code.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "backend-design",
+      "source": ".",
+      "description": "Expert, principle-driven guidance for backend system design — SOLID, DRY, KISS, YAGNI, DDD, Clean Architecture, Microservices, 12-Factor.",
+      "version": "0.1.0",
+      "category": "architecture",
+      "keywords": [
+        "backend",
+        "architecture",
+        "system-design",
+        "ddd",
+        "solid",
+        "clean-architecture",
+        "microservices",
+        "api-design"
+      ]
+    }
+  ]
+}
